@@ -1,0 +1,782 @@
+[
+  {
+    "query": "Logistic companies in Romania",
+    "matches": [
+      {
+        "score": 0.1298,
+        "name": "Bunge Romania",
+        "website": "bunge-romania.ro",
+        "country": "RO"
+      },
+      {
+        "score": 0.0877,
+        "name": "Mercedes-Benz Trucks & Buses Romania",
+        "website": "mercedes-benz-trucks-mbb.ro",
+        "country": "RO"
+      },
+      {
+        "score": 0.0663,
+        "name": "CBRE Romania",
+        "website": "cbre.ro",
+        "country": "RO"
+      },
+      {
+        "score": 0.0566,
+        "name": "METRO România",
+        "website": "metro.ro",
+        "country": "RO"
+      },
+      {
+        "score": 0.0405,
+        "name": "Rompetrol",
+        "website": "rompetrol.com",
+        "country": "RO"
+      },
+      {
+        "score": 0.035,
+        "name": "Rompetrol",
+        "website": "rompetrol.ro",
+        "country": "RO"
+      },
+      {
+        "score": 0.0303,
+        "name": "Fildas Trading",
+        "website": "fildas.ro",
+        "country": "RO"
+      },
+      {
+        "score": 0.026,
+        "name": "STILL",
+        "website": "still.ro",
+        "country": "RO"
+      },
+      {
+        "score": 0.0168,
+        "name": "EcoExpert Green Consulting",
+        "website": "ecoexpert.green",
+        "country": "RO"
+      },
+      {
+        "score": 0.0014,
+        "name": "Produit en Bretagne",
+        "website": "produitenbretagne.bzh",
+        "country": "FR"
+      }
+    ]
+  },
+  {
+    "query": "Public software companies with more than 1,000 employees.",
+    "matches": [
+      {
+        "score": 0.3203,
+        "name": "Atos",
+        "website": "atos.net",
+        "country": "FR"
+      },
+      {
+        "score": 0.3046,
+        "name": "EPAM",
+        "website": "epam.com",
+        "country": "US"
+      },
+      {
+        "score": 0.3033,
+        "name": "Globant",
+        "website": "globant.com",
+        "country": "LU"
+      },
+      {
+        "score": 0.294,
+        "name": "Mphasis",
+        "website": "mphasis.com",
+        "country": "US"
+      },
+      {
+        "score": 0.2897,
+        "name": "NTT DATA",
+        "website": "nttdata.com",
+        "country": "JP"
+      },
+      {
+        "score": 0.2875,
+        "name": "CGI",
+        "website": "cgi.com",
+        "country": "CA"
+      },
+      {
+        "score": 0.2847,
+        "name": "Tata Consultancy Services",
+        "website": "tcs.com",
+        "country": "IN"
+      },
+      {
+        "score": 0.2835,
+        "name": "Fujitsu",
+        "website": "fujitsu.com",
+        "country": "JP"
+      },
+      {
+        "score": 0.278,
+        "name": "Wipro",
+        "website": "wipro.com",
+        "country": "IN"
+      },
+      {
+        "score": 0.2741,
+        "name": "Tietoevry",
+        "website": "tietoevry.com",
+        "country": "FI"
+      }
+    ]
+  },
+  {
+    "query": "Food and beverage manufacturers in France",
+    "matches": [
+      {
+        "score": 0.458,
+        "name": "Riviera Kombucha",
+        "website": "rivierakombucha.com",
+        "country": "FR"
+      },
+      {
+        "score": 0.4524,
+        "name": "La Péro",
+        "website": "la-pero.fr",
+        "country": "FR"
+      },
+      {
+        "score": 0.435,
+        "name": "Kermené",
+        "website": "kermene.fr",
+        "country": "FR"
+      },
+      {
+        "score": 0.4262,
+        "name": "Dechelette Estate",
+        "website": null,
+        "country": "FR"
+      },
+      {
+        "score": 0.4067,
+        "name": "Domaine Godeau",
+        "website": null,
+        "country": "FR"
+      },
+      {
+        "score": 0.3892,
+        "name": "GreenLeaf Mate",
+        "website": "greenleaf-mate.com",
+        "country": "FR"
+      },
+      {
+        "score": 0.3886,
+        "name": "Geyer",
+        "website": null,
+        "country": "FR"
+      },
+      {
+        "score": 0.3711,
+        "name": "Auvergnat Cola",
+        "website": "auvergnatcola.com",
+        "country": "FR"
+      },
+      {
+        "score": 0.3703,
+        "name": "Club-Mate",
+        "website": "club-mate.fr",
+        "country": "FR"
+      },
+      {
+        "score": 0.3609,
+        "name": "Elixia",
+        "website": "elixia.bio",
+        "country": "FR"
+      }
+    ]
+  },
+  {
+    "query": "Companies that could supply packaging materials for a direct-to-consumer cosmetics brand",
+    "matches": [
+      {
+        "score": 0.4599,
+        "name": "Minh Trang Packaging",
+        "website": "xuongchailominhtrang.com",
+        "country": "VN"
+      },
+      {
+        "score": 0.3881,
+        "name": "Vetipak",
+        "website": null,
+        "country": "NL"
+      },
+      {
+        "score": 0.382,
+        "name": "Sunshine Packaging",
+        "website": "hzshengsha.com",
+        "country": "CN"
+      },
+      {
+        "score": 0.3762,
+        "name": "Standard Mold",
+        "website": "standardmold.co.kr",
+        "country": "KR"
+      },
+      {
+        "score": 0.3674,
+        "name": "YONWOO",
+        "website": "yonwookorea.com",
+        "country": "KR"
+      },
+      {
+        "score": 0.3664,
+        "name": "Wenjing Packaging",
+        "website": "wenjingpack.com",
+        "country": "CN"
+      },
+      {
+        "score": 0.3663,
+        "name": "Central de Envasados",
+        "website": "centralenvasados.com",
+        "country": "ES"
+      },
+      {
+        "score": 0.3643,
+        "name": "Crystal International",
+        "website": "crystalintl.com",
+        "country": "CA"
+      },
+      {
+        "score": 0.3593,
+        "name": "Avery",
+        "website": "avery.com",
+        "country": "US"
+      },
+      {
+        "score": 0.3547,
+        "name": "Shenzhen Itop Cosmetic Packaging",
+        "website": "itoppacking.com",
+        "country": "CN"
+      }
+    ]
+  },
+  {
+    "query": "Construction companies in the United States with revenue over $50 million",
+    "matches": [
+      {
+        "score": 0.3549,
+        "name": "Skanska",
+        "website": "skanska.com",
+        "country": "US"
+      },
+      {
+        "score": 0.3368,
+        "name": "Kiewit",
+        "website": "kiewit.com",
+        "country": "US"
+      },
+      {
+        "score": 0.3335,
+        "name": "Halmar International",
+        "website": "halmarinternational.com",
+        "country": "US"
+      },
+      {
+        "score": 0.3306,
+        "name": "Bechtel",
+        "website": "bechtel.com",
+        "country": "US"
+      },
+      {
+        "score": 0.3298,
+        "name": "DPR Construction",
+        "website": "dpr.com",
+        "country": "US"
+      },
+      {
+        "score": 0.3297,
+        "name": "Fluor",
+        "website": "fluor.com",
+        "country": "US"
+      },
+      {
+        "score": 0.3204,
+        "name": "Tutor Perini",
+        "website": "tutorperini.com",
+        "country": "US"
+      },
+      {
+        "score": 0.3179,
+        "name": "Focus Civil Construction Group",
+        "website": "focuscivil.com",
+        "country": "US"
+      },
+      {
+        "score": 0.2914,
+        "name": "Quanta Services",
+        "website": "quantaservices.com",
+        "country": "US"
+      },
+      {
+        "score": 0.2904,
+        "name": "Lemartec",
+        "website": "lemartec.com",
+        "country": "US"
+      }
+    ]
+  },
+  {
+    "query": "Pharmaceutical companies in Switzerland",
+    "matches": [
+      {
+        "score": 0.4304,
+        "name": "Sumitomo Pharma Switzerland",
+        "website": "sumitomo-pharma.com",
+        "country": "CH"
+      },
+      {
+        "score": 0.3691,
+        "name": "MSD",
+        "website": "msd.ch",
+        "country": "CH"
+      },
+      {
+        "score": 0.3681,
+        "name": "Idorsia",
+        "website": "idorsia.com",
+        "country": "CH"
+      },
+      {
+        "score": 0.3577,
+        "name": "ADC Therapeutics",
+        "website": "adctherapeutics.com",
+        "country": "CH"
+      },
+      {
+        "score": 0.3514,
+        "name": "Acino",
+        "website": "acino.swiss",
+        "country": "CH"
+      },
+      {
+        "score": 0.3504,
+        "name": "Tillotts Pharma",
+        "website": "tillotts.com",
+        "country": "CH"
+      },
+      {
+        "score": 0.349,
+        "name": "Debiopharm",
+        "website": "debiopharm.com",
+        "country": "CH"
+      },
+      {
+        "score": 0.3261,
+        "name": "CordenPharma",
+        "website": "cordenpharma.com",
+        "country": "CH"
+      },
+      {
+        "score": 0.3221,
+        "name": "CARBOGEN AMCIS",
+        "website": "carbogen-amcis.com",
+        "country": "CH"
+      },
+      {
+        "score": 0.3214,
+        "name": "Novartis",
+        "website": "novartis.com",
+        "country": "CH"
+      }
+    ]
+  },
+  {
+    "query": "B2B SaaS companies providing HR solutions in Europe",
+    "matches": [
+      {
+        "score": 0.423,
+        "name": "Novative",
+        "website": "novative.com",
+        "country": "CH"
+      },
+      {
+        "score": 0.367,
+        "name": "HR Campus",
+        "website": "hr-campus.ch",
+        "country": "CH"
+      },
+      {
+        "score": 0.3426,
+        "name": "Paychex",
+        "website": "paychex.de",
+        "country": "DE"
+      },
+      {
+        "score": 0.3381,
+        "name": "ASCIA",
+        "website": "ascia.pt",
+        "country": "PT"
+      },
+      {
+        "score": 0.3216,
+        "name": "Platfohrm",
+        "website": "platfohrm.com",
+        "country": "BE"
+      },
+      {
+        "score": 0.3116,
+        "name": "Moorepay",
+        "website": "moorepay.co.uk",
+        "country": "GB"
+      },
+      {
+        "score": 0.3062,
+        "name": "HRWare Consulting",
+        "website": "hrware.de",
+        "country": "DE"
+      },
+      {
+        "score": 0.212,
+        "name": "Ariv Pay",
+        "website": "arivpay.com",
+        "country": "GB"
+      },
+      {
+        "score": 0.212,
+        "name": "ValfryX",
+        "website": "valfryx.com",
+        "country": "ES"
+      },
+      {
+        "score": 0.2118,
+        "name": "ProximaScale",
+        "website": "proximascale.com",
+        "country": "UA"
+      }
+    ]
+  },
+  {
+    "query": "Clean energy startups founded after 2018 with fewer than 200 employees",
+    "matches": [
+      {
+        "score": 0.3456,
+        "name": "Norhybrid Renewables",
+        "website": "norhybrid.com",
+        "country": "NO"
+      },
+      {
+        "score": 0.3456,
+        "name": "Norhybrid Renewables",
+        "website": "norhybrid.com",
+        "country": "NO"
+      },
+      {
+        "score": 0.3382,
+        "name": "SideWind",
+        "website": "sidewind.is",
+        "country": "IS"
+      },
+      {
+        "score": 0.3376,
+        "name": "World Wide Wind",
+        "website": "worldwidewind.no",
+        "country": "NO"
+      },
+      {
+        "score": 0.3376,
+        "name": "World Wide Wind",
+        "website": "worldwidewind.no",
+        "country": "NO"
+      },
+      {
+        "score": 0.3156,
+        "name": "Fred. Olsen 1848",
+        "website": "fredolsen1848.com",
+        "country": "NO"
+      },
+      {
+        "score": 0.3156,
+        "name": "Fred. Olsen 1848",
+        "website": "fredolsen1848.com",
+        "country": "NO"
+      },
+      {
+        "score": 0.2882,
+        "name": "WindSpider",
+        "website": "windspider.com",
+        "country": "NO"
+      },
+      {
+        "score": 0.2882,
+        "name": "WindSpider",
+        "website": "windspider.com",
+        "country": "NO"
+      },
+      {
+        "score": 0.2881,
+        "name": "Alotta",
+        "website": "alotta.no",
+        "country": "NO"
+      }
+    ]
+  },
+  {
+    "query": "Fast-growing fintech companies competing with traditional banks in Europe.",
+    "matches": [
+      {
+        "score": 0.2906,
+        "name": "European Pay",
+        "website": "european-pay.fr",
+        "country": "FR"
+      },
+      {
+        "score": 0.2889,
+        "name": "CTC FUND",
+        "website": "ctcfundlimited.com",
+        "country": "GB"
+      },
+      {
+        "score": 0.2862,
+        "name": "Folio",
+        "website": "folio.no",
+        "country": "NO"
+      },
+      {
+        "score": 0.2711,
+        "name": "ECrowd Invest",
+        "website": null,
+        "country": "ES"
+      },
+      {
+        "score": 0.2644,
+        "name": "Agility FX",
+        "website": "agility-fx.co.uk",
+        "country": "GB"
+      },
+      {
+        "score": 0.2599,
+        "name": "Phin",
+        "website": "phintech.de",
+        "country": "DE"
+      },
+      {
+        "score": 0.2519,
+        "name": "Rantum Capital",
+        "website": "rantumcapital.de",
+        "country": "DE"
+      },
+      {
+        "score": 0.2518,
+        "name": "Ariv Pay",
+        "website": "arivpay.com",
+        "country": "GB"
+      },
+      {
+        "score": 0.2409,
+        "name": "SkyHarvest",
+        "website": "skyharvest.eu",
+        "country": "AT"
+      },
+      {
+        "score": 0.2384,
+        "name": "VIP Exchange",
+        "website": "vipexchange.uk",
+        "country": "GB"
+      }
+    ]
+  },
+  {
+    "query": "E-commerce companies using Shopify or similar platforms",
+    "matches": [
+      {
+        "score": 0.0944,
+        "name": "Coles",
+        "website": "coles.com.au",
+        "country": "AU"
+      },
+      {
+        "score": 0.092,
+        "name": "Forever 21",
+        "website": "forever21.com",
+        "country": "US"
+      },
+      {
+        "score": 0.0859,
+        "name": "Hy-Vee",
+        "website": "hy-vee.com",
+        "country": "US"
+      },
+      {
+        "score": 0.083,
+        "name": "EasyKassa",
+        "website": "easykassa.at",
+        "country": "AT"
+      },
+      {
+        "score": 0.0804,
+        "name": "DrinkAriZona",
+        "website": "drinkarizona.com",
+        "country": "US"
+      },
+      {
+        "score": 0.0768,
+        "name": "Walmart",
+        "website": "walmart.com",
+        "country": "US"
+      },
+      {
+        "score": 0.0738,
+        "name": "Aircash",
+        "website": "aircash.eu",
+        "country": "HR"
+      },
+      {
+        "score": 0.0708,
+        "name": "Flextribe",
+        "website": "flextribe.co",
+        "country": "US"
+      },
+      {
+        "score": 0.0693,
+        "name": "Yumi",
+        "website": "yumi.fr",
+        "country": "FR"
+      },
+      {
+        "score": 0.0689,
+        "name": "Fermenting & Co",
+        "website": "fermentingandco.fr",
+        "country": "FR"
+      }
+    ]
+  },
+  {
+    "query": "Renewable energy equipment manufacturers in Scandinavia",
+    "matches": [
+      {
+        "score": 0.5327,
+        "name": "Winergy Finland",
+        "website": null,
+        "country": "FI"
+      },
+      {
+        "score": 0.5221,
+        "name": "Finnwind",
+        "website": "finnwind.fi",
+        "country": "FI"
+      },
+      {
+        "score": 0.5114,
+        "name": "Envision Energy Denmark",
+        "website": null,
+        "country": "DK"
+      },
+      {
+        "score": 0.5114,
+        "name": "Envision Energy Denmark",
+        "website": null,
+        "country": "DK"
+      },
+      {
+        "score": 0.5009,
+        "name": "Fallorka",
+        "website": "fallorka.is",
+        "country": "IS"
+      },
+      {
+        "score": 0.4921,
+        "name": "Rögle Vindkraftpark",
+        "website": null,
+        "country": "SE"
+      },
+      {
+        "score": 0.4921,
+        "name": "Rögle Vindkraftpark",
+        "website": null,
+        "country": "SE"
+      },
+      {
+        "score": 0.458,
+        "name": "Norhybrid Renewables",
+        "website": "norhybrid.com",
+        "country": "NO"
+      },
+      {
+        "score": 0.458,
+        "name": "Norhybrid Renewables",
+        "website": "norhybrid.com",
+        "country": "NO"
+      },
+      {
+        "score": 0.4481,
+        "name": "DEIF Wind Power Technology",
+        "website": null,
+        "country": "DK"
+      }
+    ]
+  },
+  {
+    "query": "Companies that manufacture or supply critical components for electric vehicle battery production",
+    "matches": [
+      {
+        "score": 0.5768,
+        "name": "E-Lyte",
+        "website": "e-lyte.de",
+        "country": "DE"
+      },
+      {
+        "score": 0.5395,
+        "name": "Nascent Materials",
+        "website": "nascentmaterials.com",
+        "country": "US"
+      },
+      {
+        "score": 0.5358,
+        "name": "Rongbai Lithium Battery",
+        "website": "ronbaymat.com",
+        "country": "CN"
+      },
+      {
+        "score": 0.5324,
+        "name": "Dongdao New Energy",
+        "website": "dongdaochina.cn",
+        "country": "CN"
+      },
+      {
+        "score": 0.5129,
+        "name": "RJETech",
+        "website": null,
+        "country": "CN"
+      },
+      {
+        "score": 0.5011,
+        "name": "Stratus Materials",
+        "website": "stratusmaterials.com",
+        "country": "US"
+      },
+      {
+        "score": 0.5006,
+        "name": "Nanjing Blue Solid New Energy",
+        "website": "liongo.com.cn",
+        "country": "CN"
+      },
+      {
+        "score": 0.4988,
+        "name": "SolidEdge Solution",
+        "website": "solidedgesolution.com",
+        "country": "TW"
+      },
+      {
+        "score": 0.4959,
+        "name": "Hunan Yueneng New Energy Battery Material Co., Ltd.",
+        "website": "hunanyuneng.com",
+        "country": "CN"
+      },
+      {
+        "score": 0.4934,
+        "name": "RUSTOR",
+        "website": "russianstorage.ru",
+        "country": "RU"
+      }
+    ]
+  }
+]

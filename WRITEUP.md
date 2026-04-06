@@ -42,7 +42,7 @@ User Query
 | `data_loader.py` | Loads JSONL, normalizes messy fields, extracts NAICS codes/labels |
 | `query_parser.py` | Regex-based filter extraction + synonym expansion + NAICS hints |
 | `search.py` | TF-IDF engine + 4 scoring signals + constraint penalties |
-| `solution.py` | Entry point — runs 12 queries, prints results, exports JSON |
+| `solution.py` | Entry point runs 12 queries, prints results, exports JSON |
 
 ### Key design decisions
 
@@ -110,7 +110,7 @@ For 100,000+ companies per query:
 
 2. **Replace TF-IDF with Elasticsearch/BM25.** Elasticsearch handles millions of documents natively, supports geographic queries, and BM25 is a proven improvement over raw TF-IDF.
 
-3. **Pre-computed embeddings for complex queries.** Store sentence embeddings (e.g., `all-MiniLM-L6-v2`) in a FAISS index. Use vector search only for queries where the regex parser finds no structured constraints — the vague/interpretive ones.
+3. **Pre-computed embeddings for complex queries.** Store sentence embeddings (e.g., `all-MiniLM-L6-v2`) in a FAISS index. Use vector search only for queries where the regex parser finds no structured constraints  the vague/interpretive ones.
 
 4. **LLM verification on top-N only.** After the cheap pipeline narrows 100K → 20 candidates, send those 20 to GPT-4 for final yes/no judgment. Cost: ~$0.01 per query instead of $5 for full-set LLM calls.
 
@@ -122,19 +122,19 @@ For 100,000+ companies per query:
 
 ### Confident but incorrect results
 
-- A **logistics software** company ranking #1 for "logistics companies" — it mentions logistics everywhere in its description and NAICS label, but doesn't actually do physical logistics. The system sees strong text + NAICS signals and rates it highly.
+- A **logistics software** company ranking #1 for "logistics companies" it mentions logistics everywhere in its description and NAICS label, but doesn't actually do physical logistics. The system sees strong text + NAICS signals and rates it highly.
 
-- A **cosmetics brand** ranking high for "packaging suppliers for cosmetics" — similarity ≠ supply chain relationship. The company mentions "packaging" in its description because it *uses* packaging, not because it *supplies* it.
+- A **cosmetics brand** ranking high for "packaging suppliers for cosmetics"  similarity ≠ supply chain relationship. The company mentions "packaging" in its description because it *uses* packaging, not because it *supplies* it.
 
-- A company **near a border** ranking for the wrong country — if the address says "Germany" but the company primarily operates in Poland, the system trusts the registered address blindly.
+- A company **near a border** ranking for the wrong country  if the address says "Germany" but the company primarily operates in Poland, the system trusts the registered address blindly.
 
 ### What I'd monitor in production
 
 | Metric | Why |
 |--------|-----|
 | **Empty result rate** | A reasonable query returning 0 results means the parser or scorer has a bug |
-| **Score distribution** | If the top result scores 0.02 and #2 scores 0.01, confidence is low — the system should say "no confident matches" |
+| **Score distribution** | If the top result scores 0.02 and #2 scores 0.01, confidence is low  the system should say "no confident matches" |
 | **Score gap ratio** | A large gap between #1 and #2 suggests high-confidence match; a flat distribution suggests ambiguity |
-| **Filter hit rate** | Track how often each filter type is triggered — zero hits on a filter means the regex might be broken |
+| **Filter hit rate** | Track how often each filter type is triggered zero hits on a filter means the regex might be broken |
 | **User click-through** | In production, measure which ranked results users actually click to calibrate scoring weights |
-| **Synonym coverage** | Log queries where TF-IDF returns zero hits — these likely need new synonym entries |
+| **Synonym coverage** | Log queries where TF-IDF returns zero hits these likely need new synonym entries |
