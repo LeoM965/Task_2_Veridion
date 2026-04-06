@@ -13,7 +13,7 @@ def load_companies(file_path):
             except json.JSONDecodeError:
                 continue
 
-            # some fields arrive as strings instead of dicts/lists — fix them
+            # some fields arrive as strings instead of dicts/lists - fix them
             for field_name in ("address", "primary_naics", "secondary_naics"):
                 field_value = company.get(field_name)
                 if isinstance(field_value, str):

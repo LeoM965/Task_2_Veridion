@@ -1,6 +1,0 @@
-.idea/
-__pycache__/
-*.pyc
-results.json
-companies.jsonl
-.DS_Store

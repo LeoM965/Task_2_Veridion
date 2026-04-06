@@ -3,7 +3,7 @@ import math
 from collections import Counter
 from data_loader import get_country_code, get_naics_codes
 
-# --- Scoring weights ---
+# Scoring weights
 # These control how much each signal contributes to the final score.
 
 TEXT_SIMILARITY_WEIGHT  = 0.50   # TF-IDF cosine similarity
@@ -17,7 +17,7 @@ def tokenize(text):
     return [word for word in re.findall(r"[a-z0-9]+", text.lower()) if len(word) > 2]
 
 
-# --- TF-IDF engine ---
+# TF-IDF engine
 
 def build_tfidf_index(document_texts):
     """
@@ -92,7 +92,7 @@ def compute_text_similarity(query_text, document_tokens, inverse_doc_freq):
     return similarity_scores
 
 
-# --- Signal scorers ---
+# Signal scorers
 
 def compute_naics_match(company, relevant_prefixes):
     """Return 1.0 if any company NAICS code starts with a relevant prefix, else 0.0."""
@@ -145,7 +145,7 @@ def compute_supplier_role_score(company, role):
     return min(signal_hits / 3.0, 1.0)
 
 
-# --- Constraint penalties ---
+# Constraint penalties
 
 def compute_constraint_penalty(company, filters):
     """
@@ -220,7 +220,7 @@ def compute_constraint_penalty(company, filters):
     return penalty
 
 
-# --- Main ranking ---
+# Main ranking
 
 def rank_companies(query, expanded_query, companies, document_tokens,
                    inverse_doc_freq, filters, top_n=10):

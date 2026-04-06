@@ -1,6 +1,6 @@
 import re
 
-# --- Region code sets ---
+# Region code sets
 
 EUROPEAN_COUNTRY_CODES = {
     "al", "ad", "at", "by", "be", "ba", "bg", "hr", "cy", "cz", "dk",
@@ -22,7 +22,7 @@ LOCATION_KEYWORDS = {
     "europe":        EUROPEAN_COUNTRY_CODES,
 }
 
-# --- Synonym expansion ---
+# Synonym expansion
 # When a keyword appears in the query, these related terms are appended
 # to improve recall (e.g. "logistics" also searches for "freight", "shipping", etc.)
 
@@ -54,7 +54,7 @@ SYNONYM_MAP = {
                          "electrolyte", "energy storage"],
 }
 
-# --- NAICS industry code prefixes ---
+# NAICS industry code prefixes
 # Maps query keywords → NAICS code prefixes that indicate a direct industry match
 
 NAICS_PREFIX_MAP = {
